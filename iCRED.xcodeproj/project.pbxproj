@@ -3,18 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6969429E26A1A56A00242F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969429D26A1A56A00242F34 /* AppDelegate.swift */; };
 		696942A026A1A56A00242F34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969429F26A1A56A00242F34 /* SceneDelegate.swift */; };
-		696942A226A1A56A00242F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696942A126A1A56A00242F34 /* ViewController.swift */; };
-		696942A526A1A56A00242F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696942A326A1A56A00242F34 /* Main.storyboard */; };
+		696942A226A1A56A00242F34 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696942A126A1A56A00242F34 /* HomeViewController.swift */; };
+		696942A526A1A56A00242F34 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696942A326A1A56A00242F34 /* HomeViewController.storyboard */; };
 		696942A726A1A57700242F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696942A626A1A57700242F34 /* Assets.xcassets */; };
 		696942AA26A1A57700242F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696942A826A1A57700242F34 /* LaunchScreen.storyboard */; };
 		696942B526A1A57700242F34 /* iCREDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696942B426A1A57700242F34 /* iCREDTests.swift */; };
 		696942C026A1A57800242F34 /* iCREDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696942BF26A1A57800242F34 /* iCREDUITests.swift */; };
+		696942EF26A33B2400242F34 /* AgeInputFormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696942EE26A33B2400242F34 /* AgeInputFormElement.swift */; };
+		696942F126A33BA800242F34 /* AgeInputCollapsedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696942F026A33BA800242F34 /* AgeInputCollapsedView.xib */; };
+		696942F326A33BC300242F34 /* AgeInputExpandedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696942F226A33BC300242F34 /* AgeInputExpandedView.xib */; };
+		6969430B26A33D7C00242F34 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942F526A33D7A00242F34 /* Gilroy-SemiBold.ttf */; };
+		6969430C26A33D7C00242F34 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942F626A33D7A00242F34 /* Gilroy-ExtraBold.ttf */; };
+		6969430D26A33D7C00242F34 /* Help - Guide Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 696942F726A33D7B00242F34 /* Help - Guide Document.pdf */; };
+		6969430E26A33D7C00242F34 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942F826A33D7B00242F34 /* Gilroy-Medium.ttf */; };
+		6969430F26A33D7C00242F34 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942F926A33D7B00242F34 /* Gilroy-HeavyItalic.ttf */; };
+		6969431026A33D7C00242F34 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942FA26A33D7B00242F34 /* Gilroy-RegularItalic.ttf */; };
+		6969431126A33D7C00242F34 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942FB26A33D7B00242F34 /* Gilroy-MediumItalic.ttf */; };
+		6969431226A33D7C00242F34 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942FC26A33D7B00242F34 /* Gilroy-BoldItalic.ttf */; };
+		6969431326A33D7C00242F34 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942FD26A33D7B00242F34 /* Gilroy-Bold.ttf */; };
+		6969431426A33D7C00242F34 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 696942FE26A33D7B00242F34 /* License.txt */; };
+		6969431526A33D7C00242F34 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696942FF26A33D7B00242F34 /* Gilroy-Light.ttf */; };
+		6969431626A33D7C00242F34 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430026A33D7B00242F34 /* Gilroy-BlackItalic.ttf */; };
+		6969431726A33D7C00242F34 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430126A33D7B00242F34 /* Gilroy-Black.ttf */; };
+		6969431826A33D7C00242F34 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430226A33D7B00242F34 /* Gilroy-ExtraBoldItalic.ttf */; };
+		6969431926A33D7C00242F34 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430326A33D7B00242F34 /* Gilroy-SemiBoldItalic.ttf */; };
+		6969431A26A33D7C00242F34 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430426A33D7C00242F34 /* Gilroy-Regular.ttf */; };
+		6969431B26A33D7C00242F34 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430526A33D7C00242F34 /* Gilroy-Thin.ttf */; };
+		6969431C26A33D7C00242F34 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430626A33D7C00242F34 /* Gilroy-LightItalic.ttf */; };
+		6969431D26A33D7C00242F34 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430726A33D7C00242F34 /* Gilroy-UltraLight.ttf */; };
+		6969431E26A33D7C00242F34 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430826A33D7C00242F34 /* Gilroy-Heavy.ttf */; };
+		6969431F26A33D7C00242F34 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430926A33D7C00242F34 /* Gilroy-UltraLightItalic.ttf */; };
+		6969432026A33D7C00242F34 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6969430A26A33D7C00242F34 /* Gilroy-ThinItalic.ttf */; };
+		6969432226A348A900242F34 /* StackedFormElementFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432126A348A900242F34 /* StackedFormElementFactory.swift */; };
+		6969432426A3AE5400242F34 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432326A3AE5400242F34 /* Checkbox.swift */; };
+		6969432826A3FFA200242F34 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432726A3FFA200242F34 /* UIFont.swift */; };
+		6969432A26A4004700242F34 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432926A4004700242F34 /* UIColor.swift */; };
+		6969432C26A4030600242F34 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432B26A4030600242F34 /* String.swift */; };
+		6969432F26A40CC900242F34 /* MaritalStatusFormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969432E26A40CC900242F34 /* MaritalStatusFormElement.swift */; };
+		6969433126A40D5B00242F34 /* MaritalStatusCollapsedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6969433026A40D5B00242F34 /* MaritalStatusCollapsedView.xib */; };
+		6969433326A40D7000242F34 /* MaritalStatusExpandedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6969433226A40D7000242F34 /* MaritalStatusExpandedView.xib */; };
+		6969433626A43B1600242F34 /* FaceScanFormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969433526A43B1600242F34 /* FaceScanFormElement.swift */; };
+		6969433826A43FCB00242F34 /* FaceScanExpandedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6969433726A43FCB00242F34 /* FaceScanExpandedView.xib */; };
+		6969433F26A4430500242F34 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6969433E26A4430500242F34 /* FLAnimatedImage */; };
+		6969434126A44A3C00242F34 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969434026A44A3C00242F34 /* UIImage.swift */; };
+		6969434526A4516300242F34 /* scan_face.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6969434426A4516300242F34 /* scan_face.gif */; };
+		6969434826A457EB00242F34 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969434726A457EB00242F34 /* FinishViewController.swift */; };
+		6969434A26A457F700242F34 /* FinishViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6969434926A457F700242F34 /* FinishViewController.storyboard */; };
+		6969434C26A45B6200242F34 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969434B26A45B6200242F34 /* UIViewController.swift */; };
+		6969434E26A45BCA00242F34 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969434D26A45BCA00242F34 /* UIStoryboard.swift */; };
+		6969435126A4776700242F34 /* StackedForm in Frameworks */ = {isa = PBXBuildFile; productRef = 6969435026A4776700242F34 /* StackedForm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +81,8 @@
 		6969429A26A1A56A00242F34 /* iCRED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCRED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6969429D26A1A56A00242F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6969429F26A1A56A00242F34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		696942A126A1A56A00242F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		696942A426A1A56A00242F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696942A126A1A56A00242F34 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		696942A426A1A56A00242F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeViewController.storyboard; sourceTree = "<group>"; };
 		696942A626A1A57700242F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696942A926A1A57700242F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		696942AB26A1A57700242F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +92,48 @@
 		696942BB26A1A57800242F34 /* iCREDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCREDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		696942BF26A1A57800242F34 /* iCREDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCREDUITests.swift; sourceTree = "<group>"; };
 		696942C126A1A57800242F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696942E926A3170B00242F34 /* iCRED */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iCRED; sourceTree = "<group>"; };
+		696942EE26A33B2400242F34 /* AgeInputFormElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeInputFormElement.swift; sourceTree = "<group>"; };
+		696942F026A33BA800242F34 /* AgeInputCollapsedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeInputCollapsedView.xib; sourceTree = "<group>"; };
+		696942F226A33BC300242F34 /* AgeInputExpandedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeInputExpandedView.xib; sourceTree = "<group>"; };
+		696942F526A33D7A00242F34 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		696942F626A33D7A00242F34 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		696942F726A33D7B00242F34 /* Help - Guide Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Help - Guide Document.pdf"; sourceTree = "<group>"; };
+		696942F826A33D7B00242F34 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		696942F926A33D7B00242F34 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		696942FA26A33D7B00242F34 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		696942FB26A33D7B00242F34 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		696942FC26A33D7B00242F34 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		696942FD26A33D7B00242F34 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		696942FE26A33D7B00242F34 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		696942FF26A33D7B00242F34 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		6969430026A33D7B00242F34 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6969430126A33D7B00242F34 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		6969430226A33D7B00242F34 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6969430326A33D7B00242F34 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6969430426A33D7C00242F34 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		6969430526A33D7C00242F34 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		6969430626A33D7C00242F34 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		6969430726A33D7C00242F34 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		6969430826A33D7C00242F34 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		6969430926A33D7C00242F34 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		6969430A26A33D7C00242F34 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6969432126A348A900242F34 /* StackedFormElementFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedFormElementFactory.swift; sourceTree = "<group>"; };
+		6969432326A3AE5400242F34 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		6969432726A3FFA200242F34 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		6969432926A4004700242F34 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6969432B26A4030600242F34 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6969432E26A40CC900242F34 /* MaritalStatusFormElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaritalStatusFormElement.swift; sourceTree = "<group>"; };
+		6969433026A40D5B00242F34 /* MaritalStatusCollapsedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaritalStatusCollapsedView.xib; sourceTree = "<group>"; };
+		6969433226A40D7000242F34 /* MaritalStatusExpandedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaritalStatusExpandedView.xib; sourceTree = "<group>"; };
+		6969433526A43B1600242F34 /* FaceScanFormElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScanFormElement.swift; sourceTree = "<group>"; };
+		6969433726A43FCB00242F34 /* FaceScanExpandedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaceScanExpandedView.xib; sourceTree = "<group>"; };
+		6969434026A44A3C00242F34 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		6969434426A4516300242F34 /* scan_face.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scan_face.gif; sourceTree = "<group>"; };
+		6969434726A457EB00242F34 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		6969434926A457F700242F34 /* FinishViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinishViewController.storyboard; sourceTree = "<group>"; };
+		6969434B26A45B6200242F34 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6969434D26A45BCA00242F34 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6969435126A4776700242F34 /* StackedForm in Frameworks */,
+				6969433F26A4430500242F34 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +170,7 @@
 				696942B326A1A57700242F34 /* iCREDTests */,
 				696942BE26A1A57800242F34 /* iCREDUITests */,
 				6969429B26A1A56A00242F34 /* Products */,
+				696942E426A307AD00242F34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +187,13 @@
 		6969429C26A1A56A00242F34 /* iCRED */ = {
 			isa = PBXGroup;
 			children = (
-				6969429D26A1A56A00242F34 /* AppDelegate.swift */,
-				6969429F26A1A56A00242F34 /* SceneDelegate.swift */,
-				696942A126A1A56A00242F34 /* ViewController.swift */,
-				696942A326A1A56A00242F34 /* Main.storyboard */,
-				696942A626A1A57700242F34 /* Assets.xcassets */,
-				696942A826A1A57700242F34 /* LaunchScreen.storyboard */,
 				696942AB26A1A57700242F34 /* Info.plist */,
+				6969433926A4421400242F34 /* Assets */,
+				6969432626A3FF7600242F34 /* Extensions */,
+				6969432526A3FF1B00242F34 /* Screens */,
+				696942CF26A1ABE700242F34 /* Libraries */,
+				696942EC26A337BA00242F34 /* StackedFormElements */,
+				696942CD26A1A9F900242F34 /* Application */,
 			);
 			path = iCRED;
 			sourceTree = "<group>";
@@ -128,6 +216,151 @@
 			path = iCREDUITests;
 			sourceTree = "<group>";
 		};
+		696942CD26A1A9F900242F34 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6969429D26A1A56A00242F34 /* AppDelegate.swift */,
+				6969429F26A1A56A00242F34 /* SceneDelegate.swift */,
+				696942A826A1A57700242F34 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		696942CE26A1AA0B00242F34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				696942A326A1A56A00242F34 /* HomeViewController.storyboard */,
+				696942A126A1A56A00242F34 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		696942CF26A1ABE700242F34 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6969432326A3AE5400242F34 /* Checkbox.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		696942E426A307AD00242F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696942E926A3170B00242F34 /* iCRED */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696942EC26A337BA00242F34 /* StackedFormElements */ = {
+			isa = PBXGroup;
+			children = (
+				6969433426A43AF500242F34 /* FaceScanFormElement */,
+				6969432D26A40C8100242F34 /* MartitalStatusFormElement */,
+				696942ED26A33AE500242F34 /* AgeInputFormElement */,
+				6969432126A348A900242F34 /* StackedFormElementFactory.swift */,
+			);
+			path = StackedFormElements;
+			sourceTree = "<group>";
+		};
+		696942ED26A33AE500242F34 /* AgeInputFormElement */ = {
+			isa = PBXGroup;
+			children = (
+				696942EE26A33B2400242F34 /* AgeInputFormElement.swift */,
+				696942F026A33BA800242F34 /* AgeInputCollapsedView.xib */,
+				696942F226A33BC300242F34 /* AgeInputExpandedView.xib */,
+			);
+			path = AgeInputFormElement;
+			sourceTree = "<group>";
+		};
+		696942F426A33D5F00242F34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6969430126A33D7B00242F34 /* Gilroy-Black.ttf */,
+				6969430026A33D7B00242F34 /* Gilroy-BlackItalic.ttf */,
+				696942FD26A33D7B00242F34 /* Gilroy-Bold.ttf */,
+				696942FC26A33D7B00242F34 /* Gilroy-BoldItalic.ttf */,
+				696942F626A33D7A00242F34 /* Gilroy-ExtraBold.ttf */,
+				6969430226A33D7B00242F34 /* Gilroy-ExtraBoldItalic.ttf */,
+				6969430826A33D7C00242F34 /* Gilroy-Heavy.ttf */,
+				696942F926A33D7B00242F34 /* Gilroy-HeavyItalic.ttf */,
+				696942FF26A33D7B00242F34 /* Gilroy-Light.ttf */,
+				6969430626A33D7C00242F34 /* Gilroy-LightItalic.ttf */,
+				696942F826A33D7B00242F34 /* Gilroy-Medium.ttf */,
+				696942FB26A33D7B00242F34 /* Gilroy-MediumItalic.ttf */,
+				6969430426A33D7C00242F34 /* Gilroy-Regular.ttf */,
+				696942FA26A33D7B00242F34 /* Gilroy-RegularItalic.ttf */,
+				696942F526A33D7A00242F34 /* Gilroy-SemiBold.ttf */,
+				6969430326A33D7B00242F34 /* Gilroy-SemiBoldItalic.ttf */,
+				6969430526A33D7C00242F34 /* Gilroy-Thin.ttf */,
+				6969430A26A33D7C00242F34 /* Gilroy-ThinItalic.ttf */,
+				6969430726A33D7C00242F34 /* Gilroy-UltraLight.ttf */,
+				6969430926A33D7C00242F34 /* Gilroy-UltraLightItalic.ttf */,
+				696942F726A33D7B00242F34 /* Help - Guide Document.pdf */,
+				696942FE26A33D7B00242F34 /* License.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6969432526A3FF1B00242F34 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6969434626A457C500242F34 /* Finish */,
+				696942CE26A1AA0B00242F34 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6969432626A3FF7600242F34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6969432726A3FFA200242F34 /* UIFont.swift */,
+				6969432926A4004700242F34 /* UIColor.swift */,
+				6969432B26A4030600242F34 /* String.swift */,
+				6969434026A44A3C00242F34 /* UIImage.swift */,
+				6969434B26A45B6200242F34 /* UIViewController.swift */,
+				6969434D26A45BCA00242F34 /* UIStoryboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6969432D26A40C8100242F34 /* MartitalStatusFormElement */ = {
+			isa = PBXGroup;
+			children = (
+				6969432E26A40CC900242F34 /* MaritalStatusFormElement.swift */,
+				6969433226A40D7000242F34 /* MaritalStatusExpandedView.xib */,
+				6969433026A40D5B00242F34 /* MaritalStatusCollapsedView.xib */,
+			);
+			path = MartitalStatusFormElement;
+			sourceTree = "<group>";
+		};
+		6969433426A43AF500242F34 /* FaceScanFormElement */ = {
+			isa = PBXGroup;
+			children = (
+				6969433526A43B1600242F34 /* FaceScanFormElement.swift */,
+				6969433726A43FCB00242F34 /* FaceScanExpandedView.xib */,
+			);
+			path = FaceScanFormElement;
+			sourceTree = "<group>";
+		};
+		6969433926A4421400242F34 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6969434426A4516300242F34 /* scan_face.gif */,
+				696942A626A1A57700242F34 /* Assets.xcassets */,
+				696942F426A33D5F00242F34 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6969434626A457C500242F34 /* Finish */ = {
+			isa = PBXGroup;
+			children = (
+				6969434726A457EB00242F34 /* FinishViewController.swift */,
+				6969434926A457F700242F34 /* FinishViewController.storyboard */,
+			);
+			path = Finish;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +377,10 @@
 			dependencies = (
 			);
 			name = iCRED;
+			packageProductDependencies = (
+				6969433E26A4430500242F34 /* FLAnimatedImage */,
+				6969435026A4776700242F34 /* StackedForm */,
+			);
 			productName = iCRED;
 			productReference = 6969429A26A1A56A00242F34 /* iCRED.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +452,10 @@
 				Base,
 			);
 			mainGroup = 6969429126A1A56A00242F34;
+			packageReferences = (
+				6969433D26A4430500242F34 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+				6969434F26A4776700242F34 /* XCRemoteSwiftPackageReference "stacked-form" */,
+			);
 			productRefGroup = 6969429B26A1A56A00242F34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +472,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6969434526A4516300242F34 /* scan_face.gif in Resources */,
+				6969431D26A33D7C00242F34 /* Gilroy-UltraLight.ttf in Resources */,
+				6969430C26A33D7C00242F34 /* Gilroy-ExtraBold.ttf in Resources */,
+				6969431526A33D7C00242F34 /* Gilroy-Light.ttf in Resources */,
 				696942AA26A1A57700242F34 /* LaunchScreen.storyboard in Resources */,
+				696942F326A33BC300242F34 /* AgeInputExpandedView.xib in Resources */,
+				6969431026A33D7C00242F34 /* Gilroy-RegularItalic.ttf in Resources */,
+				696942F126A33BA800242F34 /* AgeInputCollapsedView.xib in Resources */,
+				6969431B26A33D7C00242F34 /* Gilroy-Thin.ttf in Resources */,
+				6969431E26A33D7C00242F34 /* Gilroy-Heavy.ttf in Resources */,
+				6969432026A33D7C00242F34 /* Gilroy-ThinItalic.ttf in Resources */,
+				6969430B26A33D7C00242F34 /* Gilroy-SemiBold.ttf in Resources */,
+				6969431F26A33D7C00242F34 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				6969430F26A33D7C00242F34 /* Gilroy-HeavyItalic.ttf in Resources */,
+				6969433326A40D7000242F34 /* MaritalStatusExpandedView.xib in Resources */,
 				696942A726A1A57700242F34 /* Assets.xcassets in Resources */,
-				696942A526A1A56A00242F34 /* Main.storyboard in Resources */,
+				6969431C26A33D7C00242F34 /* Gilroy-LightItalic.ttf in Resources */,
+				6969431926A33D7C00242F34 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				6969431A26A33D7C00242F34 /* Gilroy-Regular.ttf in Resources */,
+				6969430E26A33D7C00242F34 /* Gilroy-Medium.ttf in Resources */,
+				696942A526A1A56A00242F34 /* HomeViewController.storyboard in Resources */,
+				6969431826A33D7C00242F34 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				6969434A26A457F700242F34 /* FinishViewController.storyboard in Resources */,
+				6969433826A43FCB00242F34 /* FaceScanExpandedView.xib in Resources */,
+				6969433126A40D5B00242F34 /* MaritalStatusCollapsedView.xib in Resources */,
+				6969431226A33D7C00242F34 /* Gilroy-BoldItalic.ttf in Resources */,
+				6969431426A33D7C00242F34 /* License.txt in Resources */,
+				6969431326A33D7C00242F34 /* Gilroy-Bold.ttf in Resources */,
+				6969431126A33D7C00242F34 /* Gilroy-MediumItalic.ttf in Resources */,
+				6969431726A33D7C00242F34 /* Gilroy-Black.ttf in Resources */,
+				6969431626A33D7C00242F34 /* Gilroy-BlackItalic.ttf in Resources */,
+				6969430D26A33D7C00242F34 /* Help - Guide Document.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +528,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696942A226A1A56A00242F34 /* ViewController.swift in Sources */,
+				6969434C26A45B6200242F34 /* UIViewController.swift in Sources */,
+				696942A226A1A56A00242F34 /* HomeViewController.swift in Sources */,
+				696942EF26A33B2400242F34 /* AgeInputFormElement.swift in Sources */,
+				6969432C26A4030600242F34 /* String.swift in Sources */,
+				6969434826A457EB00242F34 /* FinishViewController.swift in Sources */,
+				6969432F26A40CC900242F34 /* MaritalStatusFormElement.swift in Sources */,
+				6969434E26A45BCA00242F34 /* UIStoryboard.swift in Sources */,
 				6969429E26A1A56A00242F34 /* AppDelegate.swift in Sources */,
+				6969433626A43B1600242F34 /* FaceScanFormElement.swift in Sources */,
+				6969432A26A4004700242F34 /* UIColor.swift in Sources */,
+				6969432826A3FFA200242F34 /* UIFont.swift in Sources */,
+				6969432426A3AE5400242F34 /* Checkbox.swift in Sources */,
 				696942A026A1A56A00242F34 /* SceneDelegate.swift in Sources */,
+				6969434126A44A3C00242F34 /* UIImage.swift in Sources */,
+				6969432226A348A900242F34 /* StackedFormElementFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +578,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		696942A326A1A56A00242F34 /* Main.storyboard */ = {
+		696942A326A1A56A00242F34 /* HomeViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				696942A426A1A56A00242F34 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		696942A826A1A57700242F34 /* LaunchScreen.storyboard */ = {
@@ -437,6 +719,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iCRED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,7 +728,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCRED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +738,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UDTFJDYX3;
 				INFOPLIST_FILE = iCRED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +747,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCRED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -587,6 +871,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6969433D26A4430500242F34 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.16;
+			};
+		};
+		6969434F26A4776700242F34 /* XCRemoteSwiftPackageReference "stacked-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/distressedrook/stacked-form.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6969433E26A4430500242F34 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6969433D26A4430500242F34 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+		6969435026A4776700242F34 /* StackedForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6969434F26A4776700242F34 /* XCRemoteSwiftPackageReference "stacked-form" */;
+			productName = StackedForm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6969429226A1A56A00242F34 /* Project object */;
 }

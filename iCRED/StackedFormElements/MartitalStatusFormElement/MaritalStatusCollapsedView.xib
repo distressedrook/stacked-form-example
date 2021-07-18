@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-SemiBold.ttf">
+            <string>Gilroy-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaritalStatusFormElement" customModule="iCRED" customModuleProvider="target">
+            <connections>
+                <outlet property="collapsedMaritalStatusLabel" destination="VpH-jk-iMj" id="At2-cb-M78"/>
+                <outlet property="collapsedView" destination="mmO-a6-khx" id="8sK-zD-h4x"/>
+                <outlet property="overlapSpacingConstraint" destination="DaL-HS-S0o" id="iAa-Et-OaU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mmO-a6-khx">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEb-gF-yDx">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="marital status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmj-pT-No8">
+                            <rect key="frame" x="44" y="45.5" width="122" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="122" id="1Vi-nc-5T3"/>
+                                <constraint firstAttribute="height" constant="25" id="BDc-Qb-laB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="married" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpH-jk-iMj">
+                            <rect key="frame" x="44" y="78.5" width="58" height="16"/>
+                            <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy-SemiBold" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="VpH-jk-iMj" firstAttribute="leading" secondItem="Fmj-pT-No8" secondAttribute="leading" id="6h0-Oq-V99"/>
+                        <constraint firstItem="Fmj-pT-No8" firstAttribute="leading" secondItem="ZEb-gF-yDx" secondAttribute="leading" constant="44" id="U27-Zv-XHG"/>
+                        <constraint firstItem="Fmj-pT-No8" firstAttribute="centerY" secondItem="ZEb-gF-yDx" secondAttribute="centerY" constant="-12" id="UwU-L2-9e6"/>
+                        <constraint firstItem="VpH-jk-iMj" firstAttribute="top" secondItem="Fmj-pT-No8" secondAttribute="bottom" constant="8" id="r0L-YS-ih0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0lh-ZK-zVg"/>
+            <color key="backgroundColor" red="0.074509803920000006" green="0.086274509799999996" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ZEb-gF-yDx" firstAttribute="top" secondItem="mmO-a6-khx" secondAttribute="top" id="A3B-gi-ti1"/>
+                <constraint firstItem="0lh-ZK-zVg" firstAttribute="bottom" secondItem="ZEb-gF-yDx" secondAttribute="bottom" id="DaL-HS-S0o"/>
+                <constraint firstItem="ZEb-gF-yDx" firstAttribute="trailing" secondItem="0lh-ZK-zVg" secondAttribute="trailing" id="LE8-0K-Olp"/>
+                <constraint firstItem="ZEb-gF-yDx" firstAttribute="leading" secondItem="0lh-ZK-zVg" secondAttribute="leading" id="hdt-JV-SKR"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-95.089285714285708"/>
+        </view>
+    </objects>
+</document>

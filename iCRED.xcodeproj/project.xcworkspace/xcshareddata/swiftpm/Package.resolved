@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FLAnimatedImage",
+        "repositoryURL": "https://github.com/Flipboard/FLAnimatedImage.git",
+        "state": {
+          "branch": null,
+          "revision": "e7f9fd4681ae41bf6f3056db08af4f401d61da52",
+          "version": "1.0.16"
+        }
+      },
+      {
+        "package": "StackedForm",
+        "repositoryURL": "https://github.com/distressedrook/stacked-form.git",
+        "state": {
+          "branch": "master",
+          "revision": "aed49e8be9a9baabda83db78572880f4599de85c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
