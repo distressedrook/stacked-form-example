@@ -187,13 +187,13 @@
 		6969429C26A1A56A00242F34 /* iCRED */ = {
 			isa = PBXGroup;
 			children = (
-				696942AB26A1A57700242F34 /* Info.plist */,
-				6969433926A4421400242F34 /* Assets */,
-				6969432626A3FF7600242F34 /* Extensions */,
 				6969432526A3FF1B00242F34 /* Screens */,
-				696942CF26A1ABE700242F34 /* Libraries */,
 				696942EC26A337BA00242F34 /* StackedFormElements */,
+				6969432626A3FF7600242F34 /* Extensions */,
 				696942CD26A1A9F900242F34 /* Application */,
+				6969433926A4421400242F34 /* Assets */,
+				696942CF26A1ABE700242F34 /* Libraries */,
+				696942AB26A1A57700242F34 /* Info.plist */,
 			);
 			path = iCRED;
 			sourceTree = "<group>";
