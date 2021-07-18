@@ -47,17 +47,6 @@ extension HomeViewController: StackedFormViewDelegate {
             self.stackedFormView.setup()
         }
     }
-}
-
-extension HomeViewController: StackedFormViewDataSource {
-    func numberOfItems(in stackedFormView: StackedFormView) -> Int {
-        return 3
-    }
-    
-    func stackedFormView(_ stackedFormView: StackedFormView, stackedFormElementAt index: Int) -> StackedFormElement {
-        return StackedFormElementFactory.stackedFormElement(for: index)
-    }
-    
     
     func stackedFormView(_ stackedFormView: StackedFormView, collapsedHeightForElementAt index: Int) -> CGFloat {
         return StackedForm.StackFormViewAutomaticElementHeight
@@ -65,5 +54,15 @@ extension HomeViewController: StackedFormViewDataSource {
     
     func heightForCtaButton(in stackedFormView: StackedFormView) -> CGFloat {
         return StackedForm.StackFormViewAutomaticCtaButtonHeight
+    }
+}
+
+extension HomeViewController: StackedFormViewDataSource {
+    func numberOfElements(in stackedFormView: StackedFormView) -> Int {
+        return 3
+    }
+    
+    func stackedFormView(_ stackedFormView: StackedFormView, stackedFormElementAt index: Int) -> StackedFormElement {
+        return StackedFormElementFactory.stackedFormElement(for: index)
     }
 }
